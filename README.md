@@ -27,12 +27,9 @@ OK - Device 7501043656 is online
 
 ```wget -O /usr/lib/nagios/plugins/check_traccar_device_online https://raw.githubusercontent.com/unix1984/traccar_device_online/main/check_traccar_device_online && chmod  +x /usr/lib/nagios/plugins/check_traccar_device_online```
 
- /usr/lib/nagios/plugins/check_traccar_device_online --help
+
 ```
-___                __             __            
- | _ _  _ _ _  _  |  \ _  . _ _  /  \ _ |. _  _ 
- || (_|(_(_(_||   |__/(-\/|(_(-  \__/| )||| )(- 
-                                                
+~]$ /usr/lib/nagios/plugins/check_traccar_device_online --help
 
     Usage:
         -i, --identifier	-GPS tracker identifier number.
