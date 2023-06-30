@@ -7,6 +7,7 @@ You must enter the time in seconds, which must not be exceeded.
 If no entry is received from the device for the specified period of time (-t), Nagios will notify you.
 <p>
 <p>
+<br/>
 How to use:
 ```
 ~]$ /usr/lib/nagios/plugins/check_traccar_device_online -i 7501043656 -t 600 -l /mnt/sda3/containers/alpine-gps/rootfs/opt/traccar/logs/tracker-server.log
