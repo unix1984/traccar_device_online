@@ -3,6 +3,7 @@
 This is a simple BASH script to check the online status of Traccar devices with Nagios.
 <p>
 You must enter the time in seconds, which must not be exceeded. 
+<br/>
 If no entry is received from the device for the specified period of time (-t), Nagios will notify you.
 <p>
 <p>
