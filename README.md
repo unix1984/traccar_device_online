@@ -1,6 +1,5 @@
-![alt text](https://raw.githubusercontent.com/unix1984/traccar_device_online/main/img/traccar_devices_online.png)
-
 # traccar_device_online
+![alt text](https://raw.githubusercontent.com/unix1984/traccar_device_online/main/img/traccar_devices_online.png)
 This is a simple BASH script to check the online status of Traccar devices with Nagios.
 <br/>
 You must enter the time in seconds, which must not be exceeded. If the "-t" value of t is 600, then the GPS Tracker has not sent a signal for 10 minutes and nagios will indicate it.
