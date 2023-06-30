@@ -26,3 +26,22 @@ OK - Device 7501043656 is online
 **Install:**
 
 ```wget -O /usr/lib/nagios/plugins/check_traccar_device_online https://raw.githubusercontent.com/unix1984/traccar_device_online/main/check_traccar_device_online && chmod  +x /usr/lib/nagios/plugins/check_traccar_device_online```
+<p>
+<br/>
+```
+~]$ /usr/lib/nagios/plugins/check_traccar_device_online --help
+___                __             __            
+ | _ _  _ _ _  _  |  \ _  . _ _  /  \ _ |. _  _ 
+ || (_|(_(_(_||   |__/(-\/|(_(-  \__/| )||| )(- 
+                                                
+
+    Usage:
+        -i, --identifier	-GPS tracker identifier number.
+        -t, --time-interval	-GPS device data sending time interval in seconds. If this time is exceeded, it indicates offline.
+        -l, --log-path          -Path to the Traccar log file.
+        -h, --help		-This help.
+
+Example: /usr/lib/nagios/plugins/check_traccar_device_online -i 7501043656 -t 600 -l /Path/To/Traccar/logs/tracker-server.log
+OK - Device 7501043656 is online.
+
+```
