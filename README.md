@@ -19,13 +19,6 @@ If no entry is received from the device for the specified period of time (-t), N
 ~]$ /usr/lib/nagios/plugins/check_traccar_device_online -i 7501043656 -t 600 -l /mnt/sda3/containers/alpine-gps/rootfs/opt/traccar/logs/tracker-server.log
 OK - Device 7501043656 is online
 ```
-<p>
-<br/>
-<br/>
-
-**Install:**
-
-```wget -O /usr/lib/nagios/plugins/check_traccar_device_online https://raw.githubusercontent.com/unix1984/traccar_device_online/main/check_traccar_device_online && chmod  +x /usr/lib/nagios/plugins/check_traccar_device_online```
 <br/>
 <br/>
 <br/>
@@ -43,3 +36,10 @@ OK - Device 7501043656 is online
 Example: /usr/lib/nagios/plugins/check_traccar_device_online -i 7501043656 -t 600 -l /Path/To/Traccar/logs/tracker-server.log
 OK - Device 7501043656 is online.
 ```
+<p>
+<br/>
+<br/>
+
+**Install:**
+
+```wget -O /usr/lib/nagios/plugins/check_traccar_device_online https://raw.githubusercontent.com/unix1984/traccar_device_online/main/check_traccar_device_online && chmod  +x /usr/lib/nagios/plugins/check_traccar_device_online```
