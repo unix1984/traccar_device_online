@@ -43,5 +43,4 @@ ___                __             __
 
 Example: /usr/lib/nagios/plugins/check_traccar_device_online -i 7501043656 -t 600 -l /Path/To/Traccar/logs/tracker-server.log
 OK - Device 7501043656 is online.
-
 ```
