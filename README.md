@@ -9,3 +9,5 @@ How to use:
 OK - Device 7501043656 is online
 
 **Install:**
+
+```wget -O /usr/local/sbin/btrfsback-lite https://raw.githubusercontent.com/unix1984/btrfsback-lite/main/btrfsback-lite && chmod +x /usr/local/sbin/btrfsback-lite```
