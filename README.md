@@ -11,6 +11,7 @@ OK - Device 7501043656 is online
 ```
 <br/>
 <br/>
+
 **Install:**
 
 ```wget -O /usr/lib/nagios/plugins/check_traccar_device_online https://raw.githubusercontent.com/unix1984/traccar_device_online/main/check_traccar_device_online && chmod  +x /usr/lib/nagios/plugins/check_traccar_device_online```
