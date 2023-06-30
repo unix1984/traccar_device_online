@@ -1,10 +1,11 @@
 # traccar_device_online
-![alt text](https://raw.githubusercontent.com/unix1984/traccar_device_online/main/img/traccar_devices_online.png)
+
 <br/>
 <p>
 This is a simple BASH script to check the online status of Traccar devices with Nagios.
+    
+<br/>
 ![alt text](https://raw.githubusercontent.com/unix1984/traccar_device_online/main/img/traccar_devices_nagios.png)
-<p>
 <br/>
 You must enter the time in seconds, which must not be exceeded. 
 <br/>
