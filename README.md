@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/unix1984/btrfsback-lite/main/img/Backup-Email-Report.png)
+![alt text](https://raw.githubusercontent.com/unix1984/traccar_device_online/main/img/traccar_devices_online.png)
 
 # traccar_device_online
 This is a simple BASH script to check the online status of Traccar devices with Nagios.
@@ -7,13 +7,6 @@ You must enter the time in seconds, which must not be exceeded. If the "-t" valu
 
 How to use:
 ~]$ /usr/lib/nagios/plugins/check_traccar_device_online -i 7501043656 -t 600 -l /mnt/sda3/containers/alpine-gps/rootfs/opt/traccar/logs/tracker-server.log
-OK - Device 7501043656 is online.
-	  
-![alt text](https://raw.githubusercontent.com/unix1984/btrfs/main/img/btrfsback-lite-help.png)
-<br/>
-<br/>
-Daily E-Mail report:
-![alt text](https://raw.githubusercontent.com/unix1984/btrfsback-lite/main/img/Backup-Email-Report.png)
-<br/>
+OK - Device 7501043656 is online
 
 **Install:**
